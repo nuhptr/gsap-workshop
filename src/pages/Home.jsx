@@ -1,4 +1,3 @@
-import React from "react"
 import { Link } from "react-router-dom"
 
 const animations = [
@@ -22,17 +21,20 @@ const animations = [
     },
     {
         title: "GSAP Timeline",
-        description: "The timeline() method is used to create a timeline to manage multiple animations.",
+        description:
+            "The timeline() method is used to create a timeline to manage multiple animations.",
         path: "/gsaptimeline",
     },
     {
         title: "GSAP Stagger",
-        description: "The stagger() method is used to animate multiple elements with a stagger effect.",
+        description:
+            "The stagger() method is used to animate multiple elements with a stagger effect.",
         path: "/gsapstagger",
     },
     {
         title: "GSAP ScrollTrigger",
-        description: "The ScrollTrigger plugin is used to trigger animations based on the scroll position.",
+        description:
+            "The ScrollTrigger plugin is used to trigger animations based on the scroll position.",
         path: "/gsapscrolltrigger",
     },
     {
@@ -42,23 +44,27 @@ const animations = [
     },
 ]
 
-const Home = () => {
+export default function Home() {
     return (
         <main className="container">
             <div className="flex flex-col">
                 <h1 className="text-3xl font-bold text-zinc-50">GSAP Animations</h1>
                 <ol className="flex flex-col mt-10">
                     {animations.map((animation, index) => (
-                        <li key={index}>
+                        <li key={animation.title}>
                             <Link
                                 to={animation.path}
                                 className="flex flex-row gap-2 p-5 rounded-lg hover:bg-zinc-800/50">
                                 <p>
-                                    <span className="text-sm font-bold text-zinc-50">{index + 1}.</span>
+                                    <span className="text-sm font-bold text-zinc-50">
+                                        {index + 1}.
+                                    </span>
                                 </p>
 
                                 <div className="flex flex-col flex-1 gap-2">
-                                    <p className="text-base font-semibold text-blue-500">{animation.title}</p>
+                                    <p className="text-base font-semibold text-blue-500">
+                                        {animation.title}
+                                    </p>
                                     <p className="text-xs text-gray-400">{animation.description}</p>
                                 </div>
 
@@ -80,5 +86,3 @@ const Home = () => {
         </main>
     )
 }
-
-export default Home

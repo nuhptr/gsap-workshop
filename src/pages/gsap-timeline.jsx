@@ -1,9 +1,7 @@
-import React from "react"
-import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
+import { useGSAP } from "@gsap/react"
 
-const GsapTimeline = () => {
-    // TODO: Implement gsap
+export default function GsapTimeline() {
     const timeline = gsap.timeline({ repeat: -1, repeatDelay: 1, yoyo: true })
 
     useGSAP(() => {
@@ -39,18 +37,18 @@ const GsapTimeline = () => {
             <h1>GsapTimeline</h1>
 
             <p className="mt-5 text-gray-500">
-                The <code>gsap.timeline()</code> method is used to create a timeline instance that can be used
-                to manage multiple animations.
+                The <code>gsap.timeline()</code> method is used to create a timeline instance that
+                can be used to manage multiple animations.
             </p>
 
             <p className="mt-5 text-gray-500">
                 The <code>gsap.timeline()</code> method is similar to the <code>gsap.to()</code>,{" "}
-                <code>gsap.from()</code>, and <code>gsap.fromTo()</code> methods, but the difference is that
-                the <code>gsap.timeline()</code> method is used to create a timeline instance that can be used
-                to manage multiple animations, while the <code>gsap.to()</code>, <code>gsap.from()</code>, and{" "}
-                <code>gsap.fromTo()</code> methods are used to animate elements from their current state to a
-                new state, from a new state to their current state, and from a new state to a new state,
-                respectively.
+                <code>gsap.from()</code>, and <code>gsap.fromTo()</code> methods, but the difference
+                is that the <code>gsap.timeline()</code> method is used to create a timeline
+                instance that can be used to manage multiple animations, while the{" "}
+                <code>gsap.to()</code>, <code>gsap.from()</code>, and <code>gsap.fromTo()</code>{" "}
+                methods are used to animate elements from their current state to a new state, from a
+                new state to their current state, and from a new state to a new state, respectively.
             </p>
 
             <p className="mt-5 text-gray-500">
@@ -82,5 +80,3 @@ const GsapTimeline = () => {
         </main>
     )
 }
-
-export default GsapTimeline

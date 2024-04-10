@@ -1,9 +1,7 @@
-import React from "react"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 
-const GsapText = () => {
-    // TODO: Implement gsap text animation
+export default function GsapText() {
     useGSAP(() => {
         gsap.to("#text", {
             ease: "power1.inOut",
@@ -38,13 +36,13 @@ const GsapText = () => {
             </p>
 
             <p className="mt-5 text-gray-500 para">
-                Using these methods we can achieve various text animations and effects like fade in, fade out,
-                slide in, slide out, and many more.
+                Using these methods we can achieve various text animations and effects like fade in,
+                fade out, slide in, slide out, and many more.
             </p>
 
             <p className="mt-5 text-gray-500 para">
-                For more advanced text animations and effects, you can explore the GSAP TextPlugin or other
-                third-party libraries that specialize in text animations.
+                For more advanced text animations and effects, you can explore the GSAP TextPlugin
+                or other third-party libraries that specialize in text animations.
             </p>
 
             <p className="mt-5 text-gray-500 para">
@@ -60,5 +58,3 @@ const GsapText = () => {
         </main>
     )
 }
-
-export default GsapText
