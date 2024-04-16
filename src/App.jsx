@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 import {
-   Home,
    GsapFrom,
    GsapTo,
    GsapFromTo,
@@ -9,6 +8,7 @@ import {
    GsapStagger,
    GsapScrollTrigger,
    GsapText,
+   Landing,
 } from "./pages"
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
                <Route path="/gsapstagger" element={<GsapStagger />} />
                <Route path="/gsapscrolltrigger" element={<GsapScrollTrigger />} />
                <Route path="/gsaptext" element={<GsapText />} />
-               <Route path="/" element={<Home />} />
+               <Route path="/" element={<Landing />} />
             </Routes>
          </Router>
       </div>

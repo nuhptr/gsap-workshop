@@ -1,4 +1,4 @@
-import Home from "./home"
+import Landing from "./landing"
 import GsapTo from "./gsap-to"
 import GsapTimeline from "./gsap-timeline"
 import GsapText from "./gsap-text"
@@ -8,7 +8,7 @@ import GsapFrom from "./gsap-from"
 import GsapFromTo from "./gsap-fromto"
 
 export {
-   Home,
+   Landing,
    GsapTo,
    GsapTimeline,
    GsapText,
