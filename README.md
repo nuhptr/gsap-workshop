@@ -2,9 +2,9 @@
 
 ## Dependencies
 
--   [tailwindcss](https://tailwindcss.com/) - pnpm add -D tailwindcss, postcss, autoprefixer
--   [gsap](https://greensock.com/gsap/) - pnpm add gsap
--   [@gsap/react](https://greensock.com/react/) - pnpm add @gsap/react
+-  [tailwindcss](https://tailwindcss.com/) - pnpm add -D tailwindcss, postcss, autoprefixer
+-  [gsap](https://greensock.com/gsap/) - pnpm add gsap
+-  [@gsap/react](https://greensock.com/react/) - pnpm add @gsap/react
 
 ## Introduction
 
@@ -18,10 +18,10 @@ Before you start this workshop, you should have a basic understanding of HTML, C
 
 In this workshop, you will learn the following:
 
--   How to include GSAP in your project
--   How to create simple animations with GSAP
--   How to create complex animations with GSAP
--   How to use GSAP plugins
--   How to use GSAP with other libraries and frameworks
--   How to optimize your animations for performance
--   How to debug and troubleshoot GSAP animations
+-  How to include GSAP in your project
+-  How to create simple animations with GSAP
+-  How to create complex animations with GSAP
+-  How to use GSAP plugins
+-  How to use GSAP with other libraries and frameworks
+-  How to optimize your animations for performance
+-  How to debug and troubleshoot GSAP animations

@@ -8,12 +8,12 @@ import GsapFrom from "./gsap-from"
 import GsapFromTo from "./gsap-fromto"
 
 export {
-    Home,
-    GsapTo,
-    GsapTimeline,
-    GsapText,
-    GsapStagger,
-    GsapScrollTrigger,
-    GsapFrom,
-    GsapFromTo,
+   Home,
+   GsapTo,
+   GsapTimeline,
+   GsapText,
+   GsapStagger,
+   GsapScrollTrigger,
+   GsapFrom,
+   GsapFromTo,
 }
