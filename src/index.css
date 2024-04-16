@@ -3,29 +3,29 @@
 @tailwind utilities;
 
 @layer components {
-    code {
-        @apply p-1 font-mono text-sm text-orange-400 bg-zinc-900;
-    }
+   code {
+      @apply p-1 font-mono text-sm text-orange-400 bg-zinc-900;
+   }
 
-    h1 {
-        @apply text-3xl font-bold text-zinc-50;
-    }
+   h1 {
+      @apply text-3xl font-bold text-zinc-50;
+   }
 
-    main {
-        @apply max-w-3xl min-h-screen p-10 mx-auto ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl;
-    }
+   main {
+      @apply max-w-3xl min-h-screen p-10 mx-auto ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl;
+   }
 
-    a {
-        @apply text-blue-400 hover:text-blue-500;
-    }
+   a {
+      @apply text-blue-400 hover:text-blue-500;
+   }
 
-    button {
-        @apply px-4 py-2 rounded-md bg-slate-500 hover:bg-slate-600 text-zinc-50;
-    }
+   button {
+      @apply px-4 py-2 rounded-md bg-slate-500 hover:bg-slate-600 text-zinc-50;
+   }
 }
 
 @layer utilities {
-    .container {
-        @apply max-w-3xl min-h-screen p-10 mx-auto ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl;
-    }
+   .container {
+      @apply max-w-3xl min-h-screen p-10 mx-auto ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl;
+   }
 }
