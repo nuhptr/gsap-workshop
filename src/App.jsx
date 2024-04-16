@@ -11,7 +11,7 @@ import {
    GsapText,
 } from "./pages"
 
-export default function App() {
+const App = () => {
    return (
       <div className="w-full min-h-screen bg-black">
          <Router>
@@ -29,3 +29,5 @@ export default function App() {
       </div>
    )
 }
+
+export default App
