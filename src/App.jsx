@@ -11,7 +11,7 @@ import {
    Landing,
 } from "./pages"
 
-const App = () => {
+export default function App() {
    return (
       <div className="w-full min-h-screen bg-black">
          <Router>
@@ -29,5 +29,3 @@ const App = () => {
       </div>
    )
 }
-
-export default App
